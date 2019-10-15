@@ -1,0 +1,4 @@
+allennlp
+nltk
+wn
+addict
