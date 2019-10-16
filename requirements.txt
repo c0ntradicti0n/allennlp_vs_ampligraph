@@ -2,3 +2,4 @@ allennlp
 nltk
 wn
 addict
+ampligraph
