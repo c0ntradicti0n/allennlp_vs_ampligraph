@@ -4,3 +4,5 @@ wn
 addict
 ampligraph
 tensorflow
+ordered_set
+seaborn

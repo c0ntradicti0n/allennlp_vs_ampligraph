@@ -14,17 +14,18 @@ from ampligraph.utils import save_model, restore_model
 import tensorflow as tf
 from more_itertools import flatten
 from nltk.corpus.reader import Synset, Lemma
+from ordered_set import OrderedSet
 
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 from ampligraph.evaluation import evaluate_performance
 
 
 # getting whole wordnet graph
-ke_model_path = "./models/wikirr_ke.amplimodel"
-ke_wnkeys_path = "./models/wikirr_ke.wnkeys"
+ke_model_path = "./knowledge_graph_model/wikirr_ke.amplimodel"
+ke_wnkeys_path = "./knowledge_graph_model/wikirr_ke.wnkeys"
 
 from wordnet2relationmapping import get_synonyms, get_antonyms, get_hypernyms, get_cohyponyms, get_cohypernyms, \
-    get_hyponyms
+    get_hyponyms, alle
 
 from nltk.corpus import wordnet as wn
 
@@ -59,7 +60,6 @@ if not os.path.isfile(ke_wnkeys_path) or not os.path.isfile(ke_model_path):
     whole_wn_graph = [list(wordnet_edges(syn)) for syn in all_synsets]
     print ("size of the whole graph: ", len(whole_wn_graph))
     whole_wn_graph = list(flatten(whole_wn_graph)) # [: int(len(whole_wn_graph) *0.7)]
-    from ordered_set import OrderedSet
     known_rels = OrderedSet([str(rel) for rel in whole_wn_graph])
     whole_wn_graph = [rel for rel in whole_wn_graph if str(rel) in known_rels]
 
@@ -132,7 +132,7 @@ if not os.path.isfile(ke_wnkeys_path) or not os.path.isfile(ke_model_path):
 
     model = TransE(verbose=True, k=70, epochs=40)
 
-    """pyt
+    """
     model = ComplEx(batches_count=10, seed=0, epochs=60, k=50, eta=10,
                     # Use adam optimizer with learning rate 1e-3
                     optimizer='adam', optimizer_params={'lr': 1e-3},
@@ -254,77 +254,35 @@ w1 = 'light'
 w2 = 'shadow'
 predict(w1, w2)
 
-
-
 w1 = 'street'
 w2 = 'rue'
 predict(w1, w2)
 
-
 from sklearn.decomposition import PCA
-import matplotlib.pyplot as plt
-import seaborn as sns
-from adjustText import adjust_text
-from incf.countryutils import transformations
+from sklearn.manifold import TSNE
 
 print("Extracting Embeddings..")
 
-id_to_name_map = {**dict(zip(df.home_team_id, df.home_team)), **dict(zip(df.away_team_id, df.away_team))}
+embedding_map = dict([(str(a), (model.get_embeddings(str(tok2id[str(a)])), tok2id[str(a)])) for a in alle if str(a) in tok2id])
 
-teams = pd.concat((df.home_team_id[df["train"]], df.away_team_id[df["train"]])).unique()
-team_embeddings = dict(zip(teams, model.get_embeddings(teams)))
+embeddings_array = np.array([i[0] for i in embedding_map.values()])
+print ("PCA")
+embeddings_3d_pca = PCA(n_components=3).fit_transform(embeddings_array)
+#print ("TSNE")
+#embeddings_3d_tsne = TSNE(n_components=3).fit_transform(embeddings_array)
 
+print ("pandas")
+table = pd.DataFrame(data={'name':list(embedding_map.keys()),
+                           'id': [i[1] for i in embedding_map.values()],
+                           'x_pca': embeddings_3d_pca[:, 0],
+                           'y_pca': embeddings_3d_pca[:, 1],
+                           'z_pca': embeddings_3d_pca[:, 2],
+                           #'x_tsne': [embeddings_3d_tsne[:, 0]],
+                           #'x_tsne': [embeddings_3d_tsne[:, 1]],
+                           #'x_tsne': [embeddings_3d_tsne[:, 2]]
+                           })
 
-embeddings_2d = PCA(n_components=2).fit_transform(np.array([i for i in team_embeddings.values()]))
-
-print (embeddings_2d)
-first_embeddings = list(team_embeddings.values())[0]
-print (first_embeddings)
-print (first_embeddings.shape)
-print (embeddings_2d.shape)
-from ampligraph.discovery import find_clusters
-from sklearn.cluster import KMeans
-
-print("Clustering..")
-
-clustering_algorithm = KMeans(n_clusters=6, n_init=50, max_iter=500, random_state=0)
-clusters = find_clusters(teams, model, clustering_algorithm, mode='entity')
-
-print (clusters)
-print("Visualize..")
-
-def cn_to_ctn(country):
-    try:
-        return transformations.cn_to_ctn(id_to_name_map[country])
-    except KeyError:
-        return "unk"
-
-plot_df = pd.DataFrame({"teams": teams,
-                        "embedding1": embeddings_2d[:, 0],
-                        "embedding2": embeddings_2d[:, 1],
-                        "continent": pd.Series(teams).apply(cn_to_ctn),
-                        "cluster": "cluster" + pd.Series(clusters).astype(str)})
-
-top20teams = ["TeamBelgium", "TeamFrance", "TeamBrazil", "TeamEngland", "TeamPortugal", "TeamCroatia", "TeamSpain",
-              "TeamUruguay", "TeamSwitzerland", "TeamDenmark", "TeamArgentina", "TeamGermany", "TeamColombia",
-              "TeamItaly", "TeamNetherlands", "TeamChile", "TeamSweden", "TeamMexico", "TeamPoland", "TeamIran"]
-
-def plot_clusters(hue):
-    print(hue)
-
-    np.random.seed(0)
-    plt.figure(figsize=(12, 12))
-    plt.title("{} embeddings".format(hue).capitalize())
-    ax = sns.scatterplot(data=plot_df[plot_df.continent!="unk"], x="embedding1", y="embedding2", hue=hue)
-    texts = []
-    for i, point in plot_df.iterrows():
-        if point["teams"] in top20teams or np.random.random() < 0.1:
-            texts.append(plt.text(point['embedding1']+0.02, point['embedding2']+0.01, str(point["teams"])))
-    adjust_text(texts)
-    plt.show()
-
-plot_clusters("continent")
-
+table.to_csv("knowledge_graph_3d_choords.csv")
 
 plot_clusters("cluster")
 
