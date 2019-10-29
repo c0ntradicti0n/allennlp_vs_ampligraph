@@ -30,7 +30,7 @@ from wordnet2relationmapping import get_synonyms, get_antonyms, get_hypernyms, g
 from nltk.corpus import wordnet as wn
 
 wordnet_getters = {
-    "synonym": get_synonyms,
+    #"synonym": get_synonyms,
     "antonym": get_antonyms,
     "hypernym": get_hypernyms,
     # "cohyponym":get_cohyponyms,
@@ -46,7 +46,8 @@ if not os.path.isfile(ke_wnkeys_path) or not os.path.isfile(ke_model_path):
     def wordnet_edges (synset):
         for rel, fun in wordnet_getters.items():
             res = fun(synset)
-
+            if isinstance(res, Synset):
+                raise ValueError('synset')
             for related in res:
                 for lemma in synset.lemmas():
                     if isinstance(related, Synset):
@@ -101,7 +102,6 @@ if not os.path.isfile(ke_wnkeys_path) or not os.path.isfile(ke_model_path):
     X['test'] = np.array([list((tok2id[r[0]], r[1], tok2id[r[2]])) for r in X['test'] if r[0] in known_entities and r[2] in known_entities])
 
     #import guppy
-
     #h = guppy.hpy()
     #print (h.heap())
 
@@ -148,7 +148,14 @@ if not os.path.isfile(ke_wnkeys_path) or not os.path.isfile(ke_model_path):
     print ("Training...")
     x_orig = load_wn18()
     model.fit(X_train)
+
+
     save_model(model, model_name_path=ke_model_path)
+
+
+    model2 = TransE(verbose=True, k=3, epochs=40)
+    model2.fit(X_train)
+    save_model(model2, model_name_path=ke_model_path + '2')
 
     #filter_triples = np.concatenate((X_train, X_valid))
     #filter = np.concatenate((X['train'], X['valid'], X['test']))
@@ -164,6 +171,8 @@ if not os.path.isfile(ke_wnkeys_path) or not os.path.isfile(ke_model_path):
     # Output: MRR: 0.886406, Hits@10: 0.935000
 else:
     model = restore_model(model_name_path=ke_model_path)
+    model2 = restore_model(model_name_path=ke_model_path+'2')
+
     import pickle
 
     with open(ke_wnkeys_path, 'rb') as handle:
@@ -264,12 +273,16 @@ from sklearn.manifold import TSNE
 print("Extracting Embeddings..")
 
 embedding_map = dict([(str(a), (model.get_embeddings(str(tok2id[str(a)])), tok2id[str(a)])) for a in alle if str(a) in tok2id])
+embedding_map2 = dict([(str(a), (model2.get_embeddings(str(tok2id[str(a)])), tok2id[str(a)])) for a in alle if str(a) in tok2id])
 
 embeddings_array = np.array([i[0] for i in embedding_map.values()])
 print ("PCA")
 embeddings_3d_pca = PCA(n_components=3).fit_transform(embeddings_array)
-#print ("TSNE")
-#embeddings_3d_tsne = TSNE(n_components=3).fit_transform(embeddings_array)
+print ("TSNE")
+embeddings_3d_tsne = TSNE(n_components=3).fit_transform(embeddings_array)
+print("k=2")
+embeddings_k2 = np.array([i[0] for i in embedding_map2.values()])
+
 
 print ("pandas")
 table = pd.DataFrame(data={'name':list(embedding_map.keys()),
@@ -277,9 +290,12 @@ table = pd.DataFrame(data={'name':list(embedding_map.keys()),
                            'x_pca': embeddings_3d_pca[:, 0],
                            'y_pca': embeddings_3d_pca[:, 1],
                            'z_pca': embeddings_3d_pca[:, 2],
-                           #'x_tsne': [embeddings_3d_tsne[:, 0]],
-                           #'x_tsne': [embeddings_3d_tsne[:, 1]],
-                           #'x_tsne': [embeddings_3d_tsne[:, 2]]
+                           'x_tsne': [embeddings_3d_tsne[:, 0]],
+                           'y_tsne': [embeddings_3d_tsne[:, 1]],
+                           'z_tsne': [embeddings_3d_tsne[:, 2]],
+                           'x_k=2': [embeddings_k2[:, 0]],
+                           'y_k=2': [embeddings_k2[:, 1]],
+                           'z_k=2': [embeddings_k2[:, 2]]
                            })
 
 table.to_csv("knowledge_graph_3d_choords.csv")
