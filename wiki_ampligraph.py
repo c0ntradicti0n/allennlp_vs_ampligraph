@@ -13,7 +13,7 @@ from ampligraph.utils import save_model, restore_model
 
 import tensorflow as tf
 from more_itertools import flatten
-from nltk.corpus.reader import Synset, Lemma
+from nltk.corpus.reader import Synset
 from ordered_set import OrderedSet
 
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
@@ -39,8 +39,6 @@ wordnet_getters = {
 }
 
 if not os.path.isfile(ke_wnkeys_path) or not os.path.isfile(ke_model_path):
-
-
     all_synsets = wn.all_synsets()
 
     def wordnet_edges (synset):
@@ -60,7 +58,7 @@ if not os.path.isfile(ke_wnkeys_path) or not os.path.isfile(ke_model_path):
 
     whole_wn_graph = [list(wordnet_edges(syn)) for syn in all_synsets]
     print ("size of the whole graph: ", len(whole_wn_graph))
-    whole_wn_graph = list(flatten(whole_wn_graph)) # [: int(len(whole_wn_graph) *0.7)]
+    whole_wn_graph = list(flatten(whole_wn_graph))
     known_rels = OrderedSet([str(rel) for rel in whole_wn_graph])
     whole_wn_graph = [rel for rel in whole_wn_graph if str(rel) in known_rels]
 
