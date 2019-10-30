@@ -283,6 +283,8 @@ embeddings_3d_tsne = TSNE(n_components=3).fit_transform(embeddings_array)
 print("k=2")
 embeddings_k2 = np.array([i[0] for i in embedding_map2.values()])
 
+print (embeddings_3d_pca.shape)
+print (embeddings_k2.shape)
 
 print ("pandas")
 table = pd.DataFrame(data={'name':list(embedding_map.keys()),
@@ -290,12 +292,12 @@ table = pd.DataFrame(data={'name':list(embedding_map.keys()),
                            'x_pca': embeddings_3d_pca[:, 0],
                            'y_pca': embeddings_3d_pca[:, 1],
                            'z_pca': embeddings_3d_pca[:, 2],
-                           'x_tsne': [embeddings_3d_tsne[:, 0]],
-                           'y_tsne': [embeddings_3d_tsne[:, 1]],
-                           'z_tsne': [embeddings_3d_tsne[:, 2]],
-                           'x_k=2': [embeddings_k2[:, 0]],
-                           'y_k=2': [embeddings_k2[:, 1]],
-                           'z_k=2': [embeddings_k2[:, 2]]
+                           'x_tsne': embeddings_3d_tsne[:, 0],
+                           'y_tsne': embeddings_3d_tsne[:, 1],
+                           'z_tsne': embeddings_3d_tsne[:, 2],
+                           'x_k=2': embeddings_k2[:, 0],
+                           'y_k=2': embeddings_k2[:, 1],
+                           'z_k=2': embeddings_k2[:, 2]
                            })
 
 table.to_csv("knowledge_graph_3d_choords.csv")
