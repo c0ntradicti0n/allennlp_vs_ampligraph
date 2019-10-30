@@ -41,20 +41,23 @@ wordnet_getters = {
 if not os.path.isfile(ke_wnkeys_path) or not os.path.isfile(ke_model_path):
     all_synsets = wn.all_synsets()
 
-    def wordnet_edges (synset):
+
+    def wordnet_edges(synset):
         for rel, fun in wordnet_getters.items():
             res = fun(synset)
             if isinstance(res, Synset):
                 raise ValueError('synset')
             for related in res:
                 for lemma in synset.lemmas():
-                    if isinstance(related, Synset):
-                        for rel_lemma in related.lemmas():
-                            if lemma != rel_lemma:
-                                yield list((str(lemma.synset()), rel, str(rel_lemma.synset())))
+                    if isinstance(lemma, Synset):
+                        n1 = lemma.name()
                     else:
-                        if lemma != related:
-                            yield list((str(lemma.synset()), rel, str(related.synset())))
+                        n1 = lemma.synset().name()
+                    if isinstance(related, Synset):
+                        n2 = related.name()
+                    else:
+                        n2 = related.synset().name()
+                    yield list([n1, rel, n2])
 
     whole_wn_graph = [list(wordnet_edges(syn)) for syn in all_synsets]
     print ("size of the whole graph: ", len(whole_wn_graph))
