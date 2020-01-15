@@ -4,3 +4,10 @@
 *.keys
 *.model
 *.mp4
+
+*.pyc
+*.csv
+*.wnkeys
+*.so
+*.amplimodel
+*.amplimodel2
