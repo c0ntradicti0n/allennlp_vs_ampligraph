@@ -1,6 +1,7 @@
 from collections import OrderedDict
 
 import numpy as np
+import pandas
 import pandas as pd
 from ampligraph.datasets import load_wn18
 from ampligraph.latent_features import ComplEx, HolE, TransE
@@ -13,8 +14,9 @@ from ampligraph.utils import save_model, restore_model
 
 import tensorflow as tf
 from more_itertools import flatten
-from nltk.corpus.reader import Synset, Lemma
+from nltk.corpus.reader import Synset
 from ordered_set import OrderedSet
+from sklearn.utils import Memory
 
 tf.compat.v1.logging.set_verbosity(tf.compat.v1.logging.ERROR)
 from ampligraph.evaluation import evaluate_performance
@@ -39,28 +41,29 @@ wordnet_getters = {
 }
 
 if not os.path.isfile(ke_wnkeys_path) or not os.path.isfile(ke_model_path):
-
-
     all_synsets = wn.all_synsets()
 
-    def wordnet_edges (synset):
+
+    def wordnet_edges(synset):
         for rel, fun in wordnet_getters.items():
             res = fun(synset)
             if isinstance(res, Synset):
                 raise ValueError('synset')
             for related in res:
                 for lemma in synset.lemmas():
-                    if isinstance(related, Synset):
-                        for rel_lemma in related.lemmas():
-                            if lemma != rel_lemma:
-                                yield list((str(lemma.synset()), rel, str(rel_lemma.synset())))
+                    if isinstance(lemma, Synset):
+                        n1 = lemma.name()
                     else:
-                        if lemma != related:
-                            yield list((str(lemma.synset()), rel, str(related.synset())))
+                        n1 = lemma.synset().name()
+                    if isinstance(related, Synset):
+                        n2 = related.name()
+                    else:
+                        n2 = related.synset().name()
+                    yield list([n1, rel, n2])
 
     whole_wn_graph = [list(wordnet_edges(syn)) for syn in all_synsets]
     print ("size of the whole graph: ", len(whole_wn_graph))
-    whole_wn_graph = list(flatten(whole_wn_graph)) # [: int(len(whole_wn_graph) *0.7)]
+    whole_wn_graph = list(flatten(whole_wn_graph))
     known_rels = OrderedSet([str(rel) for rel in whole_wn_graph])
     whole_wn_graph = [rel for rel in whole_wn_graph if str(rel) in known_rels]
 
@@ -190,9 +193,11 @@ def predict (w1,w2):
     try:
         rellist = [[tok2id[str(s1)], k, tok2id[str(s2)]] for s1 in wn.synsets(w1) for s2 in wn.synsets(w2)   for k in wordnet_getters.keys() if str(s1) in tok2id and str(s2) in tok2id]
         prediction = model.predict(np.array(rellist))
-        sorted_predictions = sorted(list(zip([p[0] for p in prediction], [r[1] for r in rellist])), key=lambda x:x[0])
+        sorted_predictions = sorted(list(zip([p for p in prediction], [r[1] for r in rellist])), key=lambda x:x[0])
         print (w1, w2)
+        print ('lowest probabilities')
         pprint.pprint (sorted_predictions[:3])
+        print ('highest probabilities' )
         pprint.pprint (sorted_predictions[-3:])
     except KeyError:
         print (w1, w2, " is oov")
@@ -280,65 +285,121 @@ print ("PCA")
 embeddings_3d_pca = PCA(n_components=3).fit_transform(embeddings_array)
 print ("TSNE")
 embeddings_3d_tsne = TSNE(n_components=3).fit_transform(embeddings_array)
-print("k=2")
+print("k2")
 embeddings_k2 = np.array([i[0] for i in embedding_map2.values()])
 
+print (embeddings_3d_pca.shape)
+print (embeddings_k2.shape)
 
 print ("pandas")
-table = pd.DataFrame(data={'name':list(embedding_map.keys()),
+table = pd.DataFrame(data={'name':list(s.replace("Synset('", '').replace("')", "") for s in embedding_map.keys()),
                            'id': [i[1] for i in embedding_map.values()],
                            'x_pca': embeddings_3d_pca[:, 0],
                            'y_pca': embeddings_3d_pca[:, 1],
                            'z_pca': embeddings_3d_pca[:, 2],
-                           'x_tsne': [embeddings_3d_tsne[:, 0]],
-                           'y_tsne': [embeddings_3d_tsne[:, 1]],
-                           'z_tsne': [embeddings_3d_tsne[:, 2]],
-                           'x_k=2': [embeddings_k2[:, 0]],
-                           'y_k=2': [embeddings_k2[:, 1]],
-                           'z_k=2': [embeddings_k2[:, 2]]
+                           'x_tsne': embeddings_3d_tsne[:, 0],
+                           'y_tsne': embeddings_3d_tsne[:, 1],
+                           'z_tsne': embeddings_3d_tsne[:, 2],
+                           'x_k2': embeddings_k2[:, 0],
+                           'y_k2': embeddings_k2[:, 1],
+                           'z_k2': embeddings_k2[:, 2]
                            })
+
+print ('clusters')
+import hdbscan
+std_args = {
+'algorithm':'best',
+    'alpha':1.0,
+    'approx_min_span_tree':True,
+    'gen_min_span_tree':False,
+    'leaf_size':40,
+    'memory': Memory(cachedir=None),
+    'metric':'euclidean',
+    'min_cluster_size':15,
+    'min_samples':None,
+
+    'p':None
+}
+
+def cluster(embeddings_array, **kwargs):
+    print ('dimensionality', embeddings_array.shape)
+    clusterer = hdbscan.HDBSCAN(**kwargs)
+    clusterer.fit(np.array(embeddings_array))
+    print ('number of clusters: ', max(clusterer.labels_))
+    return clusterer.labels_
+
+table['cl_pca'] =  cluster(embeddings_3d_pca, **std_args)
+table['cl_tsne'] = cluster(embeddings_3d_tsne, **std_args)
+table['cl_k2'] =   cluster(embeddings_k2, **std_args)
+table['cl_kn'] =   cluster(embeddings_array, **std_args)
 
 table.to_csv("knowledge_graph_3d_choords.csv")
 
-plot_clusters("cluster")
+import numpy as np
 
-
-from sklearn import metrics
-metrics.adjusted_rand_score(plot_df.continent, plot_df.cluster)
-
-df["results"] = (df.home_score > df.away_score).astype(int) + \
-                (df.home_score == df.away_score).astype(int)*2 + \
-                (df.home_score < df.away_score).astype(int)*3 - 1
-
-df.results.value_counts(normalize=True)
-
-
-def get_features_target(mask):
-    def get_embeddings(team):
-        return team_embeddings.get(team, np.full(list(team_embeddings.values())[0].shape[0], np.nan))
-
-    X = np.hstack((np.vstack(df[mask].home_team_id.apply(get_embeddings).values),
-                   np.vstack(df[mask].away_team_id.apply(get_embeddings).values)))
-    y = df[mask].results.values
-    return X, y
-
-clf_X_train, y_train = get_features_target((df["train"]))
-clf_X_test, y_test = get_features_target((~df["train"]))
-
-clf_X_train.shape, clf_X_test.shape
-
-np.isnan(clf_X_test).sum()/clf_X_test.shape[1]
-
-from xgboost import XGBClassifier
-
-clf_model = XGBClassifier(n_estimators=550, max_depth=5, objective="multi:softmax")
-
-clf_model.fit(clf_X_train, y_train)
-
-print (df[~df["train"]].results.value_counts(normalize=True))
-
-print (metrics.accuracy_score(y_test, clf_model.predict(clf_X_test)))
+from pandas import CategoricalDtype
+from scipy.spatial.distance import cdist
 
 
 
+table = pandas.read_csv("knowledge_graph_3d_choords.csv", index_col=0)
+things = ['pca', 'tsne', 'k2', 'kn']
+
+from tspy import TSP
+
+
+def make_path (X, D):
+    tsp = TSP()
+    # Using the data matrix
+    tsp.read_data(X)
+
+    # Using the distance matrix
+    tsp.read_mat(D)
+
+    from tspy.solvers import TwoOpt_solver
+    two_opt = TwoOpt_solver(initial_tour='NN', iter_num=10000)
+    two_opt_tour = tsp.get_approx_solution(two_opt)
+
+    #tsp.plot_solution('TwoOpt_solver')
+
+    best_tour = tsp.get_best_solution()
+    return best_tour
+
+for kind in things:
+    print ("writing table for %s " % kind)
+    table['cl'] = table['cl_%s' % kind]
+    cl_cols = table[['cl_%s' % k for k in things]]
+    cl_df = table.groupby(by='cl').mean().reset_index()
+
+    # Initialize fitness function object using coords_list
+    print ("optimizing the path through all centers")
+    if kind == "kn":
+        subkind = "tsne"
+    else:
+        sub_kind = kind
+
+    subset = cl_df[[c + "_" + sub_kind for c in ['x', 'y', 'z']]]
+    print (subset[:10])
+
+    points = [list(x) for x in subset.to_numpy()]
+    print (points[:10])
+    print (len(points))
+
+    arr = np.array(points)
+    dist = Y = cdist(arr, arr, 'euclidean')
+    new_path = make_path(np.array(points), dist)[:-1]
+    print (new_path)
+
+    cl_df[['cl_%s' % k for k in things]] = cl_cols
+
+
+    path_order_categories = CategoricalDtype(categories=new_path,  ordered = True)
+    cl_df['cl_%s' % kind] = cl_df['cl'].astype(path_order_categories)
+
+    cl_df.sort_values(['cl_%s' % kind], inplace=True)
+    cl_df['cl_%s' % kind] = cl_df['cl'].astype('int32')
+
+    cl_df.to_csv('%s_clusters_mean_points.csv' % kind, sep='\t', header=True,
+                                                                  index=False)
+    print (kind + " " + str(new_path))
 

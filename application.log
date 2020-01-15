@@ -1,0 +1,1154 @@
+INFO - Will load model ./knowledge_graph_model/csv_ke.amplimodel.
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+INFO - Will load model ./knowledge_graph_model/csv_ke.amplimodel2.
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model ./knowledge_graph_model/csv_ke.amplimodel.
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+INFO - Will load model ./knowledge_graph_model/csv_ke.amplimodel2.
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model ./knowledge_graph_model/csv_ke.amplimodel.
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+INFO - Will load model ./knowledge_graph_model/csv_ke.amplimodel2.
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model ./knowledge_graph_model/csv_ke.amplimodel.
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+INFO - Will load model ./knowledge_graph_model/csv_ke.amplimodel2.
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model ./knowledge_graph_model/csv_ke.amplimodel.
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+INFO - Will load model ./knowledge_graph_model/csv_ke.amplimodel2.
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - Will load model ./knowledge_graph_model/csv_ke.amplimodel.
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+INFO - Will load model ./knowledge_graph_model/csv_ke.amplimodel2.
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:889: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:479: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py:494: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:906: The name tf.data.make_one_shot_iterator is deprecated. Please use tf.compat.v1.data.make_one_shot_iterator instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/evaluation/protocol.py:327: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/optimizers.py:211: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:889: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:479: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py:494: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:906: The name tf.data.make_one_shot_iterator is deprecated. Please use tf.compat.v1.data.make_one_shot_iterator instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/evaluation/protocol.py:327: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/optimizers.py:211: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:889: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:479: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py:494: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:906: The name tf.data.make_one_shot_iterator is deprecated. Please use tf.compat.v1.data.make_one_shot_iterator instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/evaluation/protocol.py:327: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/optimizers.py:211: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:889: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:479: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py:494: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:906: The name tf.data.make_one_shot_iterator is deprecated. Please use tf.compat.v1.data.make_one_shot_iterator instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/evaluation/protocol.py:327: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/optimizers.py:211: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:889: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:479: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py:494: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:906: The name tf.data.make_one_shot_iterator is deprecated. Please use tf.compat.v1.data.make_one_shot_iterator instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/evaluation/protocol.py:327: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/optimizers.py:211: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:889: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:479: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py:494: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:906: The name tf.data.make_one_shot_iterator is deprecated. Please use tf.compat.v1.data.make_one_shot_iterator instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/evaluation/protocol.py:327: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/optimizers.py:211: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:889: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:479: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py:494: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:906: The name tf.data.make_one_shot_iterator is deprecated. Please use tf.compat.v1.data.make_one_shot_iterator instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/evaluation/protocol.py:327: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/optimizers.py:211: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:889: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:479: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py:494: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:906: The name tf.data.make_one_shot_iterator is deprecated. Please use tf.compat.v1.data.make_one_shot_iterator instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/evaluation/protocol.py:327: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/optimizers.py:211: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:889: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:479: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py:494: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:906: The name tf.data.make_one_shot_iterator is deprecated. Please use tf.compat.v1.data.make_one_shot_iterator instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/evaluation/protocol.py:327: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/optimizers.py:211: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:889: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:479: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py:494: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:906: The name tf.data.make_one_shot_iterator is deprecated. Please use tf.compat.v1.data.make_one_shot_iterator instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/evaluation/protocol.py:327: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/optimizers.py:211: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:889: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:479: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py:494: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:906: The name tf.data.make_one_shot_iterator is deprecated. Please use tf.compat.v1.data.make_one_shot_iterator instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/evaluation/protocol.py:327: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/optimizers.py:211: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:889: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:479: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py:494: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:906: The name tf.data.make_one_shot_iterator is deprecated. Please use tf.compat.v1.data.make_one_shot_iterator instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/evaluation/protocol.py:327: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/optimizers.py:211: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:889: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:479: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py:494: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:906: The name tf.data.make_one_shot_iterator is deprecated. Please use tf.compat.v1.data.make_one_shot_iterator instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/evaluation/protocol.py:327: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/optimizers.py:211: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:889: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:479: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py:494: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:906: The name tf.data.make_one_shot_iterator is deprecated. Please use tf.compat.v1.data.make_one_shot_iterator instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/evaluation/protocol.py:327: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/optimizers.py:211: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - ampligraph and clustering finished
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:889: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:479: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py:494: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:906: The name tf.data.make_one_shot_iterator is deprecated. Please use tf.compat.v1.data.make_one_shot_iterator instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/evaluation/protocol.py:327: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/optimizers.py:211: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - ampligraph and clustering finished
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:889: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:479: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py:494: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:906: The name tf.data.make_one_shot_iterator is deprecated. Please use tf.compat.v1.data.make_one_shot_iterator instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/evaluation/protocol.py:327: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/optimizers.py:211: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - ampligraph and clustering finished
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:196: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:199: The name tf.random.set_random_seed is deprecated. Please use tf.compat.v1.random.set_random_seed instead.
+
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:261: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:889: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:479: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/data/ops/dataset_ops.py:494: py_func (from tensorflow.python.ops.script_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+tf.py_func is deprecated in TF V2. Instead, there are two
+    options available in V2.
+    - tf.py_function takes a python function which manipulates tf eager
+    tensors instead of numpy arrays. It's easy to convert a tf eager tensor to
+    an ndarray (just call tensor.numpy()) but having access to eager tensors
+    means `tf.py_function`s can use accelerators such as GPUs as well as
+    being differentiable using a gradient tape.
+    - tf.numpy_function maintains the semantics of the deprecated tf.py_func
+    (it is not differentiable, and manipulates numpy arrays). It drops the
+    stateful argument making all functions stateful.
+    
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/models/EmbeddingModel.py:906: The name tf.data.make_one_shot_iterator is deprecated. Please use tf.compat.v1.data.make_one_shot_iterator instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/evaluation/protocol.py:327: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/ampligraph/latent_features/optimizers.py:211: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING - From /home/stefan/PycharmProjects/CorpusCookApp/venv/lib/python3.6/site-packages/tensorflow/python/ops/clip_ops.py:157: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+INFO - 
+--------- Loss ---------
+INFO - Name : nll
+INFO - eta : 2
+INFO - 
+------ Optimizer -----
+INFO - Name : adam
+INFO - lr : 0.0005
+INFO - 
+------ Initializer -----
+INFO - Name : xavier
+INFO - uniform : False
+INFO - ampligraph and clustering finished
